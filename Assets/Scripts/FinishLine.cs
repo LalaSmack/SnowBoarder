@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 public class FinishLine : MonoBehaviour
 {   
     [SerializeField] float timeToReload = 2f; // Time in seconds before the scene reloads
+    [SerializeField] ParticleSystem finishEffect; // Particle effect to play at the finish line
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            finishEffect.Play(); // Play the finish effect
             Invoke("ReloadScene", timeToReload); // Call ReloadScene after a delay 
         }
     }

@@ -1,8 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float torqueAmount = 1f;
+    [SerializeField] ParticleSystem snowParticleSystem; // Reference to the snow particle system
     Rigidbody2D rb2d;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +23,14 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             rb2d.AddTorque(-torqueAmount);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            snowParticleSystem.Play(); // Play the snow particle system when the player enters the trigger
         }
     }
 }
