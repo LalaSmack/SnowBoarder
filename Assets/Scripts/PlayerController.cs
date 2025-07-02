@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float torqueAmount = 1f;
-    [SerializeField] ParticleSystem snowParticleSystem; // Reference to the snow particle system
+  
     [SerializeField] float speed = 15f; // Speed of the player
     [SerializeField] float boostSpeed = 50f; // Speed when boosted
     SurfaceEffector2D surfaceEffector2D; // Reference to the SurfaceEffector2D component
@@ -48,11 +48,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            snowParticleSystem.Play(); // Play the snow particle system when the player enters the trigger
-        }
-    }
+   
 }
