@@ -30,11 +30,11 @@ A Unity-powered platformer where you control a snowboarder navigating snowy terr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Snowboarding-Platformer.git
-   cd Snowboarding-Platformer
+   git clone https://github.com/LalaSmack/SnowBoarder.git
+   cd SnowBoarder
 2. Open the project in **Unity Hub**:
    - Click *Add Project*
-   - Navigate to the `Snowboarding-Platformer` folder
+   - Navigate to the `SnowBoarder` folder
    - Open the project
 
 3. Run the game from Unity Editor.
