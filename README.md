@@ -10,6 +10,8 @@ A Unity-powered platformer where you control a snowboarder navigating snowy terr
 - Use rotation and speed boosts to navigate tricky sections.
 - Avoid crashing into snow banks or terrain — or start over!
 
+## Demo
+![Demo](SnowBoarder.gif)
 ## Features
 
 - ⬅️➡️ **Rotation Control** – Tilt your snowboarder using the left and right arrow keys to stay upright.
