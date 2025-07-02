@@ -39,12 +39,12 @@ A Unity-powered platformer where you control a snowboarder navigating snowy terr
 
 3. Run the game from Unity Editor.
 
-## 🎓 Acknowledgements
+## Acknowledgements
 
 - Built by following the Udemy Unity Course.
 - Core project structure and learning objectives based on course assignments.
 
-## 📄 License
+## License
 
 For personal use and learning purposes only.
 
