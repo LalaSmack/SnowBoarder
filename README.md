@@ -41,3 +41,8 @@ A Unity-powered platformer where you control a snowboarder navigating snowy terr
 
 - Built by following the Udemy Unity Course.
 - Core project structure and learning objectives based on course assignments.
+
+## 📄 License
+
+For personal use and learning purposes only.
+
